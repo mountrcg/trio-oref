@@ -7,37 +7,6 @@ Algorithm for OpenAPS implementations. To get started with OpenAPS, see the [Ope
 Is integrated into [FreeAPS-X](https://github.com/mountrcg/freeaps/tree/dev-aisf_TDD).
 
 
-## Usage of oref0
-
-### Get the source
-
-```
-git clone git://github.com/openaps/oref0.git
-cd oref0
-git checkout dev
-git checkout -b wip/my-enhancement-fix-or-proposal
-```
-
-This command installs new versions from source:
-`sudo npm install -g`
-
-Alternately, `sudo npm link` or `sudo npm link oref0` should allow you to
-edit from your checkout while using your checkout globally on your system.
-
-### Fork on github.
-
-Fork the repository on github. Add your personal "remote" with something like
-this:
-
-```
-git remote rename origin author
-git remote add origin git@github.com:<github-user>/oref0.git
-git push origin -u wip/my-enhancement-fix-or-proposal
-```
-Then target our `dev` branch for a pull request/peer review.
-
-</details>
-
 ## Contributing
 
 See the [CONTRIBUTING document](CONTRIBUTING.md). PRs welcome!
