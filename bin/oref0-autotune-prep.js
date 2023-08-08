@@ -77,7 +77,7 @@ if (!module.parent) {
     }
 
     // disallow impossibly low carbRatios due to bad decoding
-    if ( typeof(profile_data.carb_ratio) === 'undefined' || profile_data.carb_ratio < 2 ) {
+    if ( typeof(profile_data.carb_ratio) === 'undefined' || profile_data.carb_ratio < 1 ) {
         if ( typeof(pumpprofile_data.carb_ratio) === 'undefined' || pumpprofile_data.carb_ratio < 2 ) {
             console.log('{ "carbs": 0, "mealCOB": 0, "reason": "carb_ratios ' + profile_data.carb_ratio + ' and ' + pumpprofile_data.carb_ratio + ' out of bounds" }');
             return console.error("Error: carb_ratios " + profile_data.carb_ratio + ' and ' + pumpprofile_data.carb_ratio + " out of bounds");
