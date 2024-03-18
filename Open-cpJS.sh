@@ -10,7 +10,7 @@
 #
 # change directory variables as needed:
 distDIR=~/Projects/oref0/dist
-bundleDIR=~/Projects/iAPS/FreeAPS/Resources/javascript/bundle
+bundleDIR=~/Projects/Open-iAPS/FreeAPS/Resources/javascript/bundle
 
 
 cp -p -v $distDIR/autosens.js $bundleDIR/
