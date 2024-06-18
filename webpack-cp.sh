@@ -25,7 +25,7 @@ npx webpack
 #
 # change directory variables as needed:
 oref0DIR=./
-apsDIR=../iAPS
+apsDIR=../Trio
 
 
 bundleDIR=$apsDIR/FreeAPS/Resources/javascript/bundle
